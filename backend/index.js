@@ -3,14 +3,8 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors());
-
-const requestLogger = (request, response, next) => {
-  console.log("Method:", request.method);
-  console.log("Path:  ", request.path);
-  console.log("Body:  ", request.body);
-  console.log("---");
-  next();
-};
+app.use(express.static("dist"));
+app.use(express.json());
 
 let notes = [
   {
@@ -29,10 +23,6 @@ let notes = [
     important: true,
   },
 ];
-
-app.get("/", (request, response) => {
-  response.send("hello world");
-});
 
 app.get("/api/notes", (request, response) => {
   response.json(notes);
@@ -55,9 +45,6 @@ app.delete("/api/note/:id", (request, response) => {
   notes = notes.filter((note) => note.id !== id);
   response.status(204).end();
 });
-
-app.use(express.json());
-app.use(requestLogger);
 
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: "unknown endpoint" });
