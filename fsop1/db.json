@@ -1,0 +1,115 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "HTML is easy",
+      "important": false
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript",
+      "important": false
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": false
+    },
+    {
+      "content": "a new notasdae..",
+      "important": false,
+      "id": "hoEjN2R4U0A"
+    },
+    {
+      "content": "asdasda",
+      "important": true,
+      "id": "HdpE_gdzjbE"
+    },
+    {
+      "content": "asda",
+      "important": false,
+      "id": "1jIZ_IKYJhg"
+    },
+    {
+      "content": "a new asdadnote..",
+      "important": false,
+      "id": "yNUG4zSBYFc"
+    },
+    {
+      "content": "asda",
+      "important": false,
+      "id": "79Kpo9b6XNw"
+    },
+    {
+      "content": "a new note..asda",
+      "important": false,
+      "id": "xRP3nrC9Ysc"
+    },
+    {
+      "content": "asda",
+      "important": false,
+      "id": "z-sfQZL1Wak"
+    },
+    {
+      "content": "asda",
+      "important": false,
+      "id": "IWGM6eI2z-s"
+    },
+    {
+      "content": "a new note..asdad",
+      "important": false,
+      "id": "5Qt1fU0VU-A"
+    },
+    {
+      "content": "adsa",
+      "important": false,
+      "id": "EFORen27UqE"
+    },
+    {
+      "content": "adsa",
+      "important": false,
+      "id": "0fW2nOIXDCA"
+    },
+    {
+      "content": "I would like to go skateboarding",
+      "important": false,
+      "id": "qg4l3tAB-BI"
+    },
+    {
+      "content": "a new note..asda",
+      "important": false,
+      "id": "Ls7ZTf4VaWY"
+    },
+    {
+      "content": "a new note..asdaadsa",
+      "important": false,
+      "id": "wqHrmtYIGU0"
+    },
+    {
+      "content": "a new note..asdaadsdasa",
+      "important": false,
+      "id": "j3o1-kI_Lzg"
+    },
+    {
+      "content": "a new note..asdaadsdasa",
+      "important": false,
+      "id": "pE_YdIlHerI"
+    },
+    {
+      "content": "a new note..",
+      "important": false,
+      "id": "hu9hoIUuwr4"
+    },
+    {
+      "content": "a new note..a",
+      "important": false,
+      "id": "ubZbA5nikLw"
+    },
+    {
+      "content": "",
+      "important": false,
+      "id": "eh41ENW4468"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
