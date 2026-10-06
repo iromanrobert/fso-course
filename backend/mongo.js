@@ -9,7 +9,7 @@ if (process.argv.length < 3) {
 
 const password = process.argv[2];
 
-const url = `mongodb+srv://fullstackopen1:${password}@cluster0.dfb4vyy.mongodb.net/noteApp?appName=Cluster0`;
+const url = `mongodb+srv://fullstackopen1:${password}@cluster0.dfb4vyy.mongodb.net/testNoteApp?appName=Cluster0`;
 
 mongoose.set("strictQuery", false);
 
